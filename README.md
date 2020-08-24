@@ -1,14 +1,39 @@
-# Halo Theme Xue
+# Halo Theme Xue Codeyee
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/halo-dev/halo?label=halo&style=flat-square)
 
 > 由于[原先的主题](https://github.com/xzzai/halo-theme-hshan)实在是太复杂了, 所以砍掉了一些多余的功能, 也就变成了现在的主题
 
+本项目 `fork` 自 `Halo Xue` 主题，原仓库地址：[https://github.com/xzzai/halo-theme-xue](https://github.com/xzzai/halo-theme-xue) ，在该项目基础上做出个性化配置，感谢原作者开发出如此简洁、漂亮的主题。
+
+[国内仓库地址](https://gitee.com/codeyee/halo-theme-xue-codeyee)
+
+项目地址：[https://github.com/codeyee/halo-theme-xue-codeyee](https://github.com/codeyee/halo-theme-xue-codeyee) ，
+
+
+
 ## 主题预览
 
-[预览地址](https://baozi.fun)
+### 首页
+
+![](https://uposs.codeyee.com/2th9a4g8CQ.gif)
+
+### 文章页面
+
+![](https://uposs.codeyee.com/WGqL4OWeNv.gif)
+
+
+
+预览地址：[https://www.codeyee.com](https://www.codeyee.com)
 
 ## 已实现功能 
+
+> fork后新增的内容
+
+
+
+--------
+> 原仓库更新的内容
 * [x] 日志页面
 * [x] 文章目录且可配置
 * [x] 友链页面
@@ -26,7 +51,10 @@
 * [x] 二级目录
 
 ## 更新日志
-
+> fork后新增的内容
+- 2020-08-20 优化logo样式，区分主页bg其他页面bg的效果，增加文章内容的阴影效果、目录的向右偏移量+50
+--------
+> 原仓库更新的内容
 - 2020-07-05 重构, 简化主题
 - 2020-07-11  全局PJAX
 - 2020-07-12  全局夜晚模式      
@@ -39,6 +67,6 @@
 
 ## 安装
 
-请下载最新发布版本，直接使用代码不能安装。
+fork版本：[https://gitee.com/codeyee/halo-theme-xue-codeyee/releases](https://gitee.com/codeyee/halo-theme-xue-codeyee/releases)
 
-详见：[下载地址](https://github.com/xzzai/halo-theme-xue/releases)
+原作者仓库详见：[下载地址](https://github.com/xzzai/halo-theme-xue/releases)
