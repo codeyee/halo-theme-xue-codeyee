@@ -42,11 +42,33 @@
                                 </div>
                             </#if>
                         </li>
-
                     </#list>
+                    <@categoryTag method="list">
+                        <li class="item has-sub"
+                            index="99">
+                            <a href="/categories" target="_blank"
+                               class="void-link md:text-base sm:text-sm">全部分类</a>
+
+                            <div class="sub-menu-tree hidden sh-box-t" id="subMenu_">
+                                <div class="sh-box-b">
+                                    <ul class="sub-menu">
+                                        <#list categories as categorie>
+                                            <li>
+                                                <a href="${categorie.fullPath!}" class="link md:text-base sm:text-sm"
+                                                   target="_blank">
+                                                    ${categorie.name}(${categorie.postCount!})
+                                                </a>
+                                            </li>
+                                        </#list>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                    </@categoryTag>
                 </@menuTag>
             </div>
-            <div class="list -right">
+            <div class="list-right">
                 <div class="overlay"></div>
             </div>
         </ul>
