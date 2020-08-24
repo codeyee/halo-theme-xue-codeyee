@@ -205,6 +205,7 @@ a {
 .bg-cover {
   -webkit-animation: fade-down 0.3s;
   animation: fade-down 0.3s;
+  z-index: -1;
 }
 .content-container {
   -webkit-animation: fade-up 0.3s;
