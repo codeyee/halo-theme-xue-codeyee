@@ -103,7 +103,7 @@ var post = {
         var screenWidth = document.body.clientWidth;
         var tocEle = document.getElementById('toc');
         if (tocEle) {
-            tocEle.style.left = (screenWidth - 800) / 2 + 820 + "px";
+            tocEle.style.left = (screenWidth - 800) / 2 + 820  + 50 + "px";
         }
     },
 
