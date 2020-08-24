@@ -17,10 +17,14 @@ var nightMode = {
             $(document.body).addClass('night');
             hanUtils.setLocalStorage(nightModeId, true);
             $('#switch_Word').attr("checked", true);
+            $('#write').css("background-color","#292a2d")
+            $('#write').css("border","1px solid #292a2d")
         } else {
             $(document.body).removeClass('night');
             hanUtils.setLocalStorage(nightModeId, false);
             $('#switch_Word').attr("checked", false);
+            $('#write').css("background-color","#fff")
+            $('#write').css("border","1px solid #ebeef5")
         }
 
         if (typeof renderComment === 'function') {
