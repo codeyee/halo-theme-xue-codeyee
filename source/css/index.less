@@ -16,10 +16,31 @@
     top: 0;
     width: 100%;
 }
+.cover-bg-index img {
+    height: 100%;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 
 .cover-bg {
     -webkit-animation: fadein 1s ease-in-out;
     animation: fadein 1s ease-in-out;
+    bottom: 0;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.cover-bg-index {
+    -webkit-animation: fadein-bg-index 1s ease-in-out;
+    animation: fadein-bg-index 1s ease-in-out;
     bottom: 0;
     left: 0;
     opacity: 0.7;
@@ -145,6 +166,34 @@
     }
     100% {
         opacity: 0.3;
+    }
+}
+
+/* Animations */
+@-moz-keyframes fadein-bg-index {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.7;
+    }
+}
+
+@-webkit-keyframes fadein-bg-index {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.7;
+    }
+}
+
+@keyframes fadein-bg-index {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.7;
     }
 }
 

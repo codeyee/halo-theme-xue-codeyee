@@ -3,7 +3,7 @@
     <main class="mx-auto home-page" id="container">
         <header class="bg-cover" id="homeHeader">
             <#if settings.home_cover?? && settings.home_cover!=''>
-                <div class="cover-bg">
+                <div class="cover-bg-index">
                     <img src="${settings.home_cover!}" alt="${settings.home_title!options.blog_title!}">
                 </div>
             <#else>
