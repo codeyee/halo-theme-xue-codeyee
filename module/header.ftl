@@ -8,7 +8,7 @@
         <#if settings.header_logoimg?? && settings.header_logoimg!=''>
             <a href="${blog_url!}" id="headerLogo" class="logo-link"
                onfocus="this.blur();">
-                <img src="${settings.header_logoimg}" alt="${blog_title!}" class="logo" id="logo" style="height: 3rem"/>
+                <img src="${settings.header_logoimg}" alt="${blog_title!}" class="logo" id="logo" style=""/>
             </a>
         </#if>
         <ul class="nav-list " role="navigation">
