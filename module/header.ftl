@@ -46,7 +46,7 @@
                     <@categoryTag method="list">
                         <li class="item has-sub"
                             index="99">
-                            <a href="/categories" target="_blank"
+                            <a href="/categories" target=""
                                class="void-link md:text-base sm:text-sm">全部分类</a>
 
                             <div class="sub-menu-tree hidden sh-box-t" id="subMenu_">
